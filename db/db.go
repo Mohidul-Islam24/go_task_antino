@@ -14,6 +14,7 @@ var once sync.Once
 func init() {
 	// get database URL
 	// for testing please create a new database and update dbURL
+	// you may need to change this url
 	dbURL := "postgres://postgres@localhost:5432/antinotestdb?sslmode=disable"
 
 	// open the database
